@@ -11,7 +11,7 @@
 
 <body>
     <h1 id="title">Game Of The Year Survey</h1>
-    <p id="discription">Thank you for taking the time to help us select GOTY winner</p>
+    <p id="description">Thank you for taking the time to help us select GOTY winner</p>
     <form action="" method="POST" id="survey-form">
         <label for="" id="name-label">Name</label>
         <input type="text" name="" id="name" minlength="2" placeholder="    Enter your name" required>
@@ -21,8 +21,8 @@
         <input type="number" id="number" min="10" max="100" placeholder="    Age">
         <div>
             <p id="gender">Gender:</p>
-            <input type="radio" name="gender" required><span>Male</span>
-            <input type="radio" name="gender" required><span>Female</span>
+            <input type="radio" name="gender" required value="male"><span>Male</span>
+            <input type="radio" name="gender" required value="femal"><span>Female</span>
         </div>
         <label for="dropdown">What type of gamer are you?</label>
         <select id="dropdown">
@@ -48,27 +48,27 @@
         <div class="goty-section">
             <p class="goty-text">Choose your GOTY</p>
             <div class="game-raw">
-                <input type="radio" name="game">
+                <input type="radio" name="game" value="control">
                 <label class="game-name">Control</label>
             </div>
             <div class="game-raw">
-                <input type="radio" name="game">
+                <input type="radio" name="game" value="death-stranding">
                 <label class="game-name">Death Stranding</label>
             </div>
             <div class="game-raw">
-                <input type="radio" name="game">
+                <input type="radio" name="game" value="sekiro">
                 <label class="game-name">Sekiro: Shadows Die Twice</label>
             </div>
             <div class="game-raw">
-                <input type="radio" name="game">
+                <input type="radio" name="game" value="re2">
                 <label class="game-name">Resident Evil 2</label>
             </div>
             <div class="game-raw">
-                <input type="radio" name="game">
+                <input type="radio" name="game" value="smash-bros">
                 <label class="game-name">Super Mario Smash BROS. Ultimate</label>
             </div>
             <div class="game-raw">
-                <input type="radio" name="game">
+                <input type="radio" name="game" value="the-outer-worlds">
                 <label class="game-name">The Outer Worlds</label>
             </div>
             <div class="game-raw textarea">
