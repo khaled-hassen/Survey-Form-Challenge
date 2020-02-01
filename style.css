@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Changa|El+Messiri&display=swap');
+
+body {
+    text-align: center;
+    background-color: #252525;
+    font-family: 'El Messiri', sans-serif;
+    color: #fafafa;
+}
+
+p {
+    width: fit-content;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+select {
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+}
+
+div {
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    width: fit-content;
+}
+
+input::placeholder{
+    font-family: 'Changa', sans-serif;
+    font-size: 15px;
+}
+
+option {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 15px;
+}
+
+span {
+    font-size: 20px;
+    margin: 0 25px 0 6px;
+}
+
+textarea {
+    max-width: 570px;
+    min-height: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+textarea::placeholder {
+    font-family: 'Changa', sans-serif;
+    font-size: 15px;
+}
+
+.textarea {
+    width: 100%;
+}
+
+.game-type, .game-name {
+    display: inline-block;
+}
+
+.goty-section {
+    text-align: left;
+    width: 100%;
+}
+
+.game-type-q {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.games-type-checkbox {
+    margin-bottom: 30px;
+}
+
+.goty-text {
+    font-size: 25px;
+}
+
+#name, #email, #number {
+    cursor: text;
+}
+
+#name, #email, #number, #dropdown {
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+}
+
+#discription {
+    font-size: 30px;
+    margin: 0 auto 50px;
+    font-style: italic;
+    width: fit-content;
+}
+
+#title {
+    width: fit-content;
+    margin: 100px auto 10px;
+    font-family: 'Changa', sans-serif;
+    font-size: 70px;
+    text-shadow: 0px 0px  5px #fffafa;
+}
+
+#survey-form {
+    background-color: #414141;
+    border-radius: 35px;
+    padding: 50px;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gender {
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 20px 10px 0;
+}
+
+#submit {
+    margin: 0 0 0 auto;
+    border: 0;
+    padding: 0;
+}
+
+#submit {
+    box-shadow:inset 0px 0px 0px 1px #ffffff;
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color:#ffffff;
+    border-radius:10px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family: 'El Messiri', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    padding:13px 37px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+#submit:hover {
+    background:linear-gradient(to bottom, #f6f6f6 60%, #706c61 100%);
+    background-color:#f6f6f6;
+}
+    

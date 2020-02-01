@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="shortcut icon"
+        href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">Game Of The Year Survey</h1>
+    <p id="discription">Thank you for taking the time to help us select GOTY winner</p>
+    <form action="" method="POST" id="survey-form">
+        <label for="" id="name-label">Name</label>
+        <input type="text" name="" id="name" minlength="2" placeholder="    Enter your name" required>
+        <label for="" id="email-label">Email</label>
+        <input type="email" name="" id="email" placeholder="    Enter your email" required>
+        <label for="" id="number-label">Ages <span>(optional)</span></label>
+        <input type="number" id="number" min="10" max="100" placeholder="    Age">
+        <div>
+            <p id="gender">Gender:</p>
+            <input type="radio" name="gender" required><span>Male</span>
+            <input type="radio" name="gender" required><span>Female</span>
+        </div>
+        <label for="dropdown">What type of gamer are you?</label>
+        <select id="dropdown">
+            <option value="placehoder" selected disabled>Select an option</option>
+            <option value="hardcore">Hardcore gamer</option>
+            <option value="casual">casual gamer</option>
+        </select>
+        <div class="games-type-checkbox">
+            <p class="game-type-q">What games do you enjoy playing?</p>
+            <input type="checkbox" value="rpg">
+            <label for="" class="game-type">RPG</label>
+            <input type="checkbox" value="action">
+            <label for="" class="game-type">Action</label>
+            <input type="checkbox" value="adventure">
+            <label for="" class="game-type">Adventure</label>
+            <input type="checkbox" value="simulation">
+            <label for="" class="game-type">Simulation</label>
+            <input type="checkbox" value="strategy">
+            <label for="" class="game-type">Strategy</label>
+            <input type="checkbox" value="sports">
+            <label for="" class="game-type">Sports</label>
+        </div>
+        <div class="goty-section">
+            <p class="goty-text">Choose your GOTY</p>
+            <div class="game-raw">
+                <input type="radio" name="game">
+                <label class="game-name">Control</label>
+            </div>
+            <div class="game-raw">
+                <input type="radio" name="game">
+                <label class="game-name">Death Stranding</label>
+            </div>
+            <div class="game-raw">
+                <input type="radio" name="game">
+                <label class="game-name">Sekiro: Shadows Die Twice</label>
+            </div>
+            <div class="game-raw">
+                <input type="radio" name="game">
+                <label class="game-name">Resident Evil 2</label>
+            </div>
+            <div class="game-raw">
+                <input type="radio" name="game">
+                <label class="game-name">Super Mario Smash BROS. Ultimate</label>
+            </div>
+            <div class="game-raw">
+                <input type="radio" name="game">
+                <label class="game-name">The Outer Worlds</label>
+            </div>
+            <div class="game-raw textarea">
+                <p>Your game isn't in the list? No problem feel free to mention it above</p>
+                <textarea name="" id="" cols="60" rows="5" placeholder="Your game name"></textarea>
+            </div>
+        </div>
+        <button type="submit" id="submit">SUBMIT</button>
+    </form>
+
+</body>
+
+</html>
